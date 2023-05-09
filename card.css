@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(15, 184, 196);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+    
+}
+.card{
+    width: 350px;
+    height: 300px;
+    margin: 100px auto;
+    
+}
+.name{
+    background: url(./images/bg-pattern-card.svg), #fff;
+   height: 150px;
+   width: 350px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.name h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+span{
+    padding-left: 10px;
+    font-size: 18px;
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name p{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    margin-left:115px;
+    margin-top:90px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.about{
+    background: #fff;
+    padding-top: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    height: 250px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.fol{
+    display: block;
+    margin-left: -25px;
+    font-size: 0.8rem;
+}
+.likes{
+    display: block;
+    font-size: 0.8rem;
+    margin-left: -10px;
+}
+.photo{
+    display: block;
+    font-size: 0.8rem;
+    margin-left: -10px;
+}
+h2:nth-child(3){
+    padding-left: 80px;
+}
+h2:nth-child(2){
+    padding-left: 80px;
+}
+h2:nth-child(1){
+    padding-left: 10px;
+}
+hr{
+    position: relative;
+    top: 170px;
+}
+@media(max-width:769px){
+    .card{
+        width: 100%;
+    
+    }
+    .about{
+        background: #fff;
+        padding-top: 180px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        height: 250px;
+        padding-left: 30px;
+        font-size: 12px;
+        width: 350px;
+    }
+    hr{
+        width: 350px;
+    }
+}
